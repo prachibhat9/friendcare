@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    animation: fadeIn 2s forwards;
+
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.heading img{
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+.heading a{
+    margin: 10px;
+    text-decoration: none;
+    color: #0693e3;
+}
+.heading a:hover{
+    color: turquoise;
+}
+.heading button{
+    margin-left: 200px;
+color: white;
+    background-color: turquoise;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.heading button:hover{
+    background-color: #0693e3;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 200%;
+    animation: slide 20s infinite;
+}
+
+.slide {
+    flex: 1;
+    width: 100%;
+    transition: transform 5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+h1{
+    color: #0693e3;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+.firstpara{
+    text-align: center;
+    line-height: 35px;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.pictures{
+    display: grid;
+        gap: 10px;
+        padding: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        
+} 
+.d{
+    width: 100%;
+        height: auto;
+        display: block; 
+}  
+.d img{
+    width: 300px;
+    height:300px;
+}
+.para{
+    justify-content: left;
+}
+.pictures2{
+    display: grid;
+        gap: 10px;
+        padding: 10px;
+        grid-template-columns: repeat(3, 1fr);
+}
+.pictures2 img{
+    width: 100%;
+        height: auto;
+        display: block;
+}
+.para{
+    display: grid;
+        gap: 10px;
+      
+        grid-template-columns: repeat(3, 1fr);
+}
+.third{
+    position: relative;
+        opacity: 0;
+        
+        animation: slide-in 10s forwards;
+}
+@keyframes slide-in {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+.third div{
+    
+    text-align: left;
+    padding: 20px;
+}
+.third div h2{
+    
+    color: aquamarine;
+}
+.third div p{
+    text-align: left;
+        line-height: 25px;
+        font-size: 20px;
+        justify-content: center;
+        margin: 0 auto;
+}
+.one{
+    padding-top: 70px;
+}
+.block{
+    background-color: #4da9ce;
+    padding: 20px;
+    width: auto;
+    height: 160px;
+    margin: 30px;
+    display: flex;
+}
+.block p{
+    color: white;
+    overflow: hidden;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.block2 img{
+    padding-left: 100px;
+}
+.button2{
+    color: white;
+        background-color: #0693e3;
+        width: 170px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        font-weight: 600; 
+        cursor: pointer;  
+}
+.texts{
+   text-align: center;
+}
+.texts button:hover{
+    background-color: turquoise;
+    width: 150px;
+
+}
+.end button{
+         margin-left: 200px; 
+            color: white;
+            background-color: turquoise;
+            width: 170px;
+            height: 50px;
+            border-radius: 20px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer; 
+            width: 120px;
+                height: 40px;
+}
+.end{
+    margin: 50px;
+    display: flex;
+    color: #0693e3;
+}
+.end a{
+    color: #0693e3;
+   
+}
+.links{
+    margin-left: 100px;
+}
+
+.links a{
+    margin: 15px;
+    text-decoration: none;
+  
+}
+input{
+    border-top:black ;
+    border-left: black;
+    border-right: black;
+}
+li{
+    margin: 15px;
+}

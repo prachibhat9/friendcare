@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    animation: fadeIn 2s forwards;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.heading img {
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.heading a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0693e3;
+}
+
+.heading a:hover {
+    color: turquoise;
+}
+
+.heading button {
+    margin-left: 200px;
+    color: white;
+    background-color: turquoise;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading button:hover {
+    background-color: #0693e3;
+}
+.page{
+    margin: 30px;
+    text-align: center;
+}
+.pic img{
+    width: 100%;
+    margin-bottom: 30px;
+    /* height: 400px; */
+}
+.block1{
+    display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+.block1 div{
+    padding: 10px;
+}
+.end button {
+    width: 120px;
+    height: 40px;
+}
+
+.end {
+    margin: 50px;
+    display: flex;
+    color: #0693e3;
+}
+
+.end a {
+    color: #0693e3;
+
+}
+
+.links {
+    margin-left: 100px;
+}
+
+.links a {
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+input {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+
+li {
+    margin: 15px;
+}
+
+button {
+    margin-left: 50px;
+    color: white;
+    background-color: turquoise;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+h1{
+    color: #0693e3;
+    font-size: 40px;
+    margin-bottom: 40px;
+    
+ 
+}
+h3{
+   white-space: nowrap; 
+
+}
+p{
+    line-height: 25px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}

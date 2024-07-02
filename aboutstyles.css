@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    animation: fadeIn 2s forwards;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.heading img {
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.heading a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0693e3;
+}
+
+.heading a:hover {
+    color: turquoise;
+}
+
+.heading button {
+    margin-left: 200px;
+    color: white;
+    background-color: turquoise;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading button:hover {
+    background-color: #0693e3;
+}
+.page{
+    margin: 60px;
+}
+.img1{
+    width: 100%;
+}
+.block1{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+color: #0693e3;
+font-size: 45px;
+margin-bottom: 20px;
+}
+p{
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+}
+.block2{
+width: 100%;
+height: 400px;
+display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-bottom: 70px;
+    background-color: lavender;
+    padding: 50px;
+}
+.block2 div{
+    padding-right: 170px;
+}
+span{
+    font-weight: bold;
+}
+h2{
+    color: turquoise;
+}
+.center{
+    text-align: center;
+}
+.block3{
+display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block4{
+display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block4 h1{
+    color: turquoise;
+}
+.block4 h2{
+    color: #0693e3;
+    font-size: 30px;
+}
+.end button {
+    width: 120px;
+    height: 40px;
+}
+
+.end {
+    margin: 50px;
+    display: flex;
+    color: #0693e3;
+}
+
+.end a {
+    color: #0693e3;
+
+}
+.end h2{
+    color: #0693e3;
+}
+
+.links {
+    margin-left: 100px;
+}
+
+.links a {
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+input {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+
+li {
+    margin: 15px;
+}
+button{
+    margin-left: 200px;
+        color: white;
+        background-color: turquoise;
+        width: 170px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+}
