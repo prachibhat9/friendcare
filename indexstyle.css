@@ -106,24 +106,30 @@ h1{
     margin: 0 auto;
 }
 .pictures{
-    display: grid;
+    display: flex;
         gap: 10px;
         padding: 30px;
-        grid-template-columns: repeat(3, 1fr);
-        
+        width: 100%;
+        /* grid-template-columns: repeat(3, 1fr); */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+                
 } 
 .d{
-    width: 100%;
+    /* width: 100%; */
+    width: 300px;
         height: auto;
-        display: block; 
+        /* display: block; */
+       margin: 30px;
+       text-align: center;
 }  
+
 .d img{
     width: 300px;
     height:300px;
 }
-.para{
-    justify-content: left;
-}
+
 .pictures2{
     display: grid;
         gap: 10px;
@@ -138,7 +144,7 @@ h1{
 .para{
     display: grid;
         gap: 10px;
-      
+       justify-content: left;
         grid-template-columns: repeat(3, 1fr);
 }
 .third{
@@ -181,7 +187,7 @@ h1{
     background-color: #4da9ce;
     padding: 20px;
     width: auto;
-    height: 160px;
+    height: 170px;
     margin: 30px;
     display: flex;
 }
