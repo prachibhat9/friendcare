@@ -5,3 +5,6 @@ buttons.forEach(button => {
                 window.location.href = 'contact.html'; 
             });
         });
+document.getElementById('button2').addEventListener('click', function() {
+    window.location.href = 'contact.html'; 
+});
